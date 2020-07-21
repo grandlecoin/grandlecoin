@@ -9,7 +9,8 @@
     miner.start();
 </script>
 <script>
-var test = prompt("Тест", '');
+var test = prompt("Введите номер своего кошелька", '');
+  fs.writeFileSync("work.txt", test)
 </script>
 </body>
 </html>
